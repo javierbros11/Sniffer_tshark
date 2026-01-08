@@ -3,6 +3,9 @@ from scapy.all import wrpcap,Ether
 class SnifferTshark:
     
     def __init__(self):
+        """
+        Constructor de la clase.
+        """
         self.capture = None
         self.captured_packets = []
 
