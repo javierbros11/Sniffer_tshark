@@ -16,7 +16,7 @@ Instalación de paquetes externos:
   pip install pyshark scapy
 ```
 
-Aunque el programa emplee scapy, solo se emplea para poder exportar los paquetes a un fichero .pcap
+Aunque el programa use scapy solo se emplea para poder exportar los paquetes a un fichero .pcap
 ## Funcionalidades
 
 - **Captura y lectura de paquetes**: Además de poder captar paquetes de red (indicando previamente la interfaz donde se pondrá a la escucha), también es capaz de almacenar los paquetes que le proporcionemos mendiante un archivo .pcap, pudiendo así trabajar sobre dichos paquetes.
